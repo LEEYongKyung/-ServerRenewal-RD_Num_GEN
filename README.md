@@ -1,26 +1,29 @@
-# random-num-generator
+# Frontend
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+npm run serve
 ```
 
-### Compiles and minifies for production
+# Backend
+
+## Project setup
 ```
-yarn run build
+python -m venv venv
+pip install -r requirements.txt
+```
+### Compiles and hot-reloads for development
+```
+flask run
 ```
 
-### Run your tests
+# 개발예정 사항
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+# 블록체인 연결
+# 폴더 안 CSV 파일 모두 압축하는 문제
 ```
